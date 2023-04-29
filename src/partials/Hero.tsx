@@ -22,7 +22,6 @@ const Hero = () => (
           className="h-80 w-64"
           src="/assets/images/avatar.svg"
           alt="Avatar image"
-          loading="lazy"
         />
       }
       socialButtons={
