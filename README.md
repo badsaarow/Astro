@@ -1,4 +1,4 @@
-# Astro Boilerplate with TypeScript and Tailwind CSS [![Twitter](https://img.shields.io/twitter/url/https/twitter.com/cloudposse.svg?style=social&label=Follow%20%40Ixartz)](https://twitter.com/ixartz)
+# Astro Boilerplate with TypeScript and Tailwind CSS
 
 🚀 Astro Boilerplate is starter code for your blog or portfolio based on Astro
 with Tailwind CSS 3.0. ⚡️ Made with Astro, TypeScript, ESLint, Prettier,
@@ -65,15 +65,13 @@ writing, that's Node v16.15.1
 Run the following command on your local environment:
 
 ``` bash
-git clone --depth=1 https://github.com/ixartz/Astro-boilerplate
-cd my-project-name
-npm install
+yarn
 ```
 
 Then, you can run locally in development mode with live reload:
 
 ``` bash
-npm run dev
+yarn run dev
 ```
 
 Open [http://localhost:3000](http://localhost:3000) with your favorite browser
@@ -84,7 +82,7 @@ to see your project.
 You can create an optimized production build with:
 
 ```shell
-npm run build
+yarn run build
 ```
 
 Now, your blog is ready to be deployed. All generated files are located at
@@ -103,28 +101,9 @@ All commands are run from the root of the project, from a terminal:
 
 | Command           | Action                                       |
 |:----------------  |:-------------------------------------------- |
-| `npm install`     | Installs dependencies                        |
-| `npm run dev`     | Starts local dev server at `localhost:3000`  |
-| `npm run build`   | Build your production site to `./dist/`      |
-| `npm run preview` | Preview your build locally, before deploying |
-| `npm run clean`   | Remove `./dist` folder                       |
-| `npm run lint`    | Run ESLint and report styling error          |
-
-### Contributions
-
-Everyone is welcome to contribute to this project.
-Feel free to open an issue if you have question or found a bug.
-
-### Additional Checks
-
-This README.md was linted with
-[markdownlint](https://github.com/igorshubovych/markdownlint-cli)
-
-### License
-
-Licensed under the MIT License, Copyright © 2022
-
----
-
-Made with ♥ by [CreativeDesignsGuru](https://creativedesignsguru.com)
-[![Twitter](https://img.shields.io/twitter/url/https/twitter.com/cloudposse.svg?style=social&label=Follow%20%40Ixartz)](https://twitter.com/ixartz)
+| `yarn        `     | Installs dependencies                        |
+| `yarn run dev`     | Starts local dev server at `localhost:3000`  |
+| `yarn run build`   | Build your production site to `./dist/`      |
+| `yarn run preview` | Preview your build locally, before deploying |
+| `yarn run clean`   | Remove `./dist` folder                       |
+| `yarn run lint`    | Run ESLint and report styling error          |
