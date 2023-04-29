@@ -1,5 +1,5 @@
 {
-  "name": "astro-boilerplate",
+  "name": "astro",
   "version": "1.0.0",
   "private": true,
   "scripts": {
@@ -57,5 +57,5 @@
   "volta": {
     "node": "18.16.0"
   },
-  "author": "Ixartz (https://github.com/ixartz)"
+  "author": "sungyong (https://github.com/badsaarow)"
 }
